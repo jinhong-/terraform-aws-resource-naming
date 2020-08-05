@@ -21,6 +21,7 @@ locals {
     "elasticsearch_domain"                = "28"  # https://docs.aws.amazon.com/elasticsearch-service/latest/developerguide/es-createupdatedomains.html#es-createdomains
     "iam_instance_profile"                = "128" # https://docs.aws.amazon.com/IAM/latest/APIReference/API_CreateInstanceProfile.html
     "iam_role"                            = "64"  # https://docs.aws.amazon.com/IAM/latest/APIReference/API_CreateRole.html
+    "iam_policy"                          = "128" # https://docs.aws.amazon.com/IAM/latest/APIReference/API_CreatePolicy.html
     "instance"                            = "255" # https://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_Tag.html
     "key_pair"                            = "255" # https://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_CreateKeyPair.html
     "kinesis_firehose_delivery_stream"    = "64"  # https://docs.aws.amazon.com/firehose/latest/APIReference/API_CreateDeliveryStream.html
