@@ -13,3 +13,9 @@ variable "keepers" {
   type        = map(string)
   default     = {}
 }
+
+variable "create_name" {
+  description = "Controls if name should be created"
+  type        = bool
+  default     = true
+}
